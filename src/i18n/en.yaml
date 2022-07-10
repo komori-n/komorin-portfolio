@@ -1,0 +1,97 @@
+header:
+  name: Toshinori TSUBOI(komori-n)
+
+mobileheader:
+  name: Tohsinori Tsuboi
+
+top:
+  name: |
+    <0>
+      Toshinori TSUBOI
+    </0>
+    <1>
+      komori-n
+    </1>
+  lines: |
+    <0>
+      I'm an embedded engineer for automotive working in Tokyo (Japan).
+      I've been developing device drivers for engine ECUs, and platform services for Central Gateway ECU.
+    </0>
+    <0>
+      When I was in college, I majored in applied mathematics.
+      I studied theoretical and practical numerical schemes for partial differential equations (PDEs).
+    </0>
+    <0>
+      My favorite languages are C++ and Rust, and my hobbies are Shogi (Japanese chess), and
+      traveling to castles in Japan.
+    </0>
+
+skills:
+  c:
+    title: "C / C++"
+    desc: |
+      <0>
+        This is one of my most experienced languages.
+        I often work with C++11/14/17.
+        I've made a wide range of layers of products from device drivers to super computers.
+      </0>
+      <0>
+        I'm particularly good at speeding up softwares.
+        I willing to use SFINAE and loop unrolling by hand even when they reduces readability.
+      </0>
+  rust:
+    title: "Rust"
+    desc: |
+      <0>
+        I prefer to use Rust over C++ because it is easier to read, write, and debug.
+        I've made server-side applications on AWS Lambda and ones on embedded devices.
+      </0>
+  english:
+    title: "English"
+    desc: |
+      <0>
+        I'm not as good at English as at C++/Rust, but
+        I'm working in (mostly non-native) English-speaking workspace now.
+      </0>
+
+works:
+  kh:
+    title: KomoringHeights(a mate solver for Shogi) 
+    desc: |
+        <0>
+          A mate solver written in C++17.
+          I used 
+            <1>
+              YaneuraOu
+            </1>
+          for generation of legal moves and communication through USI protocol.
+        </0>
+        <0>
+          This engine is based on df-pn+ algorithm, and implements advanced features like 
+          avoidance of GHI (Graph History Interaction) problems and detection of double-count problems. 
+          It is a strong mate engine enough that all of 
+          <1>
+            Really Difficult Problems for Computer Mate Engines (Japanese)
+          </1>
+          can be solved.
+        </0>
+  piece:
+    title: Piece Placement Puzzle Solver
+    desc: |
+      <0>
+        "Piece Placement Puzzle" is one of famous puzzles in Shogi like "8 Queen Puzzle".
+        It is a puzzle that one places all Shogi pieces on a board without attacking the other pieces.
+        I made a solver for this puzzle in C++.
+      </0>
+      <0>
+        It could find some new solutions for generalized, bi-directional puzzles.
+      </0>
+  blog:
+    title: Blog
+    desc: |
+      <0>
+        A technical blog since July 2020 named "komori-n's Microwaves".
+      </0>
+      <0>
+        I post problems encountered in daily operations and technical explanation for algorithms more than monthly.
+      </0>
