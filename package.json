@@ -6,7 +6,7 @@
   "scripts": {
     "build": "MODE_ENV=production webpack",
     "dev": "webpack -w",
-    "serve": "serve ./dist"
+    "serve": "serve ./docs"
   },
   "repository": {
     "type": "git",

@@ -7,7 +7,7 @@ module.exports = {
     entry: resolve(__dirname, 'src/index.tsx'),
     output: {
         filename: 'index.js',
-        path: resolve(__dirname, 'dist'),
+        path: resolve(__dirname, 'docs'),
     },
     plugins: [
         new HtmlWebpackPlugin({
