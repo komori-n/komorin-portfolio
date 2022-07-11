@@ -45,7 +45,7 @@ export const Header: FC = () => {
                 <div className="main-bar">
                     <div className="container">
                         <h1>
-                            <a href="/">
+                            <a href="https://komori-n.github.io/komorin-portfolio">
                                 komori-n<span className="remove-when-mobile-mode">'s portfolio</span>
                             </a>
                         </h1>
