@@ -88,9 +88,10 @@ works:
       </0>
   blog:
     title: Blog
+    url: https://komorinfo.com/blog/en/
     desc: |
       <0>
-        A technical blog since July 2020 named "komori-n's Microwaves".
+        A technical blog since July 2020 named "komori-n's ULTRAsound".
       </0>
       <0>
         I post problems encountered in daily operations and technical explanation for algorithms more than monthly.

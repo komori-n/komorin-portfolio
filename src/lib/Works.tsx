@@ -7,7 +7,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileCode, faLink } from "@fortawesome/free-solid-svg-icons";
 import { Trans, WithTranslation, withTranslation } from 'react-i18next';
 
-export const WorksComponent: FC<WithTranslation> = () => {
+export const WorksComponent: FC<WithTranslation> = ({ t }) => {
+    const blog_url = t("works.blog.url", "https://komorinfo.com/blog/");
+
     return (
         <Wrapper id="works">
             <h2>Works</h2>
@@ -77,7 +79,7 @@ export const WorksComponent: FC<WithTranslation> = () => {
                         コウモリのちょーおんぱ（ブログ）
                     </Trans>
                     <span className="spacing"></span>
-                    <a href="https://komorinfo.com/blog/" target="_blank" rel="noopener noreferrer">
+                    <a href={blog_url} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLink} size="lg" className="code" />
                     </a>
                 </h3>
@@ -89,7 +91,7 @@ export const WorksComponent: FC<WithTranslation> = () => {
                         月1本程度の頻度で日々の困りごとや技術解説について投稿している。
                     </p>
                 </Trans>
-                <a href="https://komorinfo.com/blog/" target="_blank" rel="noopener noreferrer">
+                <a href={blog_url} target="_blank" rel="noopener noreferrer">
                     <img className="blog-img" src={cho_ompa} />
                 </a>
             </>
