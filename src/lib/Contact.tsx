@@ -9,7 +9,7 @@ export const Contact: FC = () => {
         <Wrapper>
             <div className="line"></div>
             <div className="icons">
-                <a className="email" href="mailto:ikamat.kmr@gmail.com" target="_blank" rel="noopener noreferrer">
+                <a className="email" href="mailto:komori-n@ymail.ne.jp" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faSquareEnvelope} size="3x" />
                 </a>
                 <span className="spacing"></span>
